@@ -1,0 +1,4 @@
+CREATE (n:IPDR {imsi: "509-81-5024109075", imei: "158091513045980", msisdn: "905347654321", operator: "TURK TELEKOM", loc_cell: "9808319013", datetime: "2022-11-14 17:27:03", up_kbytes: 34520, down_kbytes: 1740, 
+                source_ip: "161.62.141.199", source_port: "50083", destionation_ip: "221.175.131.101", destionation_port: "5242", host: "api.whatsapp.com"}),
+CREATE (n:IPDR {imsi: "509-81-5024109075", imei: "158091513045980", msisdn: "905347654321", operator: "TURK TELEKOM", loc_cell: "9808319013", datetime: "2022-11-14 18:27:03", up_kbytes: 42520, down_kbytes: 2740, 
+                source_ip: "161.62.141.199", source_port: "35201", destionation_ip: "76.156.22.98", destionation_port: "993", host: "mail.gizli-mail.com"})

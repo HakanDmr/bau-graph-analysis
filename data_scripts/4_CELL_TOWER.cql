@@ -1,0 +1,4 @@
+CREATE (n:CELL_TOWER {imsi: "509-81-5024109075", imei: "158091513045980", msisdn: "905347654321", datetime: "2022-11-13 11:10:01", loc_cell: "9808319013", operator: "TURK TELEKOM"}),
+CREATE (n:CELL_TOWER {imsi: "462-53-9093211791", imei: "129876406129170", msisdn: "905326543210", datetime: "2022-11-14 09:36:54", loc_cell: "8823366050", operator: "TURKCELL"}),
+CREATE (n:CELL_TOWER {imsi: "509-81-5024109075", imei: "158091513045980", msisdn: "905347654321", datetime: "2022-11-14 23:16:27", loc_cell: "6812066099", operator: "TURK TELEKOM"}),
+CREATE (n:CELL_TOWER {imsi: "462-53-9093211791", imei: "129876406129170", msisdn: "905326543210", datetime: "2022-11-14 23:40:11", loc_cell: "6812066099", operator: "TURKCELL"})

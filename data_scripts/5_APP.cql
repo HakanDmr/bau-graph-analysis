@@ -1,0 +1,6 @@
+CREATE (n:APP {name: "Whatsapp", vendor: "Meta Inc", protocol: "n/a", destionation_port: 5223})
+CREATE (n:APP {name: "Whatsapp", vendor: "Meta Inc", protocol: "n/a", destionation_port: 5228})
+CREATE (n:APP {name: "Whatsapp", vendor: "Meta Inc", protocol: "n/a", destionation_port: 4244})
+CREATE (n:APP {name: "Whatsapp", vendor: "Meta Inc", protocol: "n/a", destionation_port: 5222})
+CREATE (n:APP {name: "Whatsapp", vendor: "Meta Inc", protocol: "n/a", destionation_port: 5242})
+CREATE (n:APP {name: "eMail",    vendor: "n/a",      protocol: "SSL", destionation_port: 993})

@@ -1,0 +1,18 @@
+version: '3'
+services:
+  graph-server:
+    image: graphfoundation/ongdb-enterprise:1.0.4
+    container_name: graph-server
+    environment:
+      - ONGDB_apoc_export_file_enabled=true
+      - ONGDB_apoc_import_file_enabled=true
+      - ONGDB_apoc_import_file_use__ongdb__config=true
+    ports:
+      - 7474:7474
+      - 7687:7687
+    volumes:
+      - D:/tez-graph-db/data:/data
+      - D:/tez-graph-db/plugins:/var/lib/ongdb/plugins
+      - D:/tez-graph-db/import_data:/var/lib/ongdb/import
+    restart: on-failure
+    network_mode: bridge
